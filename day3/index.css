@@ -1,0 +1,41 @@
+.text {
+  text-align: center;
+}
+
+.inputs_sec {
+  background-color: white;
+  width: 580px;
+  height: 300px;
+  border-radius: 0.4rem;
+}
+.inputs {
+  margin-top: 1rem;
+}
+.input_text {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+/* .msin_container {
+  background-color: pink;
+  width: 100%;
+} */
+.main {
+  background-color: pink;
+}
+.message_text {
+  margin-left: 2rem;
+  margin-top: 1.8rem;
+}
+textarea {
+  width: 260px;
+  height: 173px;
+}
+.butt_sec {
+  background-color: rgb(58, 58, 239);
+  width: 220px;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}

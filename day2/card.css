@@ -1,0 +1,39 @@
+.navbar {
+    color: white;
+  }
+  .nav_sec {
+    background-color: rgb(38, 36, 36);
+    height: 50px;
+  }
+  
+  .container_text {
+    width: 800px;
+  }
+  
+  .card_sec {
+    border: 2px solid black;
+    width: 240px;
+    height: 210px;
+  }
+  .card_head_text {
+    background-color: rgb(38, 36, 36);
+    color: white;
+    height: 50px;
+    padding: 0.8rem;
+  }
+  .card_text {
+    width: 220px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 8px;
+  }
+  .card_text_five {
+    width: 230px;
+    text-align: center;
+  }
+  .right_sec {
+    background-color: rgb(38, 36, 36);
+    color: white;
+    width: 320px;
+    border: 3px solid black;
+  }

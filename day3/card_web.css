@@ -1,0 +1,60 @@
+.nav_sec {
+    background-color: rgb(38, 36, 36);
+    height: 50px;
+  }
+  
+  .container_text {
+    width: 800px;
+  }
+  
+  .card_sec {
+    border: 1px solid black;
+    width: 240px;
+    height: 210px;
+    border-radius: 3px;
+  }
+  .card_head_text {
+    height: 50px;
+    padding: 0.8rem;
+  }
+  .card_text {
+    text-align: center;
+    margin-left: 15px;
+    width: 220px;
+  }
+  /* .card_text_five {
+    width: 230px;
+    text-align: center;
+  } */
+  .right_sec {
+    width: 320px;
+    border: 1px solid black;
+  }
+  .btn_sec {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+  .button {
+    border: none;
+    background-color: rgb(83, 83, 254);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  .navbar_text {
+    gap: 17px;
+    margin-right: 580px;
+  }
+  .search {
+    margin-right: 1rem;
+  }
+  .search_btn {
+    border: 1px solid greenyellow;
+    border-radius: 2px;
+    padding: 3px;
+    color: greenyellow;
+  }
+  .heading_text {
+    margin-left: 15px;
+  }
+  

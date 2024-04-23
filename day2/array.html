@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let arr = [2, 5, 11, 45, 9]
+        arr.push(123)
+        console.log(arr);
+        arr.pop()
+        console.log(arr);
+        arr.unshift(4)
+        console.log(arr);
+        arr.shift()
+        console.log(arr);
+        let arr1 = arr.map((element, index, arr) => {
+            return index + 1;
+        })
+        console.log(arr1);
+        let arr2 = arr.filter((ele) => {
+            if (ele % 2 == 1)
+                return ele
+        })
+        console.log(arr2);
+
+        arr.splice(3, 1, 6)
+        console.log(arr);
+
+        let arr3 = arr.slice(0, 4)
+        console.log(arr3);
+
+
+        let arr4 = arr.find((ele) => {
+            return ele % 2 == 1
+        });
+        console.log(arr4);
+
+
+        console.log(arr.reverse());
+
+        arr.sort((a, b) => {
+            return a - b
+        })
+        console.log(arr);//ascending
+
+        let arr5 = arr.reduce((sum, curr) => {
+            return sum + curr
+        }, 0) //if we use 10 instead of 0 it add 10 in result
+        console.log(arr5)
+    </script>
+</body>
+
+</html>
